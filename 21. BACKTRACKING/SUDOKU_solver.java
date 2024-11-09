@@ -77,5 +77,5 @@ public class SUDOKU_solver{
         }else{
             System.out.println("solution does not exits");
         }
-    }
+    }  
 }
