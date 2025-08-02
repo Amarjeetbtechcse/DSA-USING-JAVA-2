@@ -6,4 +6,4 @@ public class charAt {
         System.out.println(name.charAt(0));//print first character
         System.out.println(name.charAt(8));//printing space
     }
-}
+}//these index value is pasing in charAt() .

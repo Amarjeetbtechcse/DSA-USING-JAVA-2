@@ -4,12 +4,12 @@ public class stringPalindrome {
             int n = str.length();
             if(str.charAt(i) != str.charAt(n-i-1)){
                 //not a palindrome
-                System.out.println("not a palindrome number");
+                System.out.println("not palindrome number");
                 // return false;
             }
         }
         // return true;
-        System.out.println("this is palindrome number ");
+        System.out.println("palindrome number ");
     }
     public static void main(String[] args) {
         String str = "racecar";
