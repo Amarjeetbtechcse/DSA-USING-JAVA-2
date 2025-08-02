@@ -4,6 +4,7 @@ public class diagonalMatrixSum {
         //THIS COMMENTED CODE IS NOT OPTIMISED and also time complexity O(n^2)
         // for(int i =0; i<matrix.length; i++){
         //     for(int j= 0; j<matrix[0].length; j++){
+
         //         if (i == j ){
         //             sum += matrix[i][j];
         //         }
@@ -20,7 +21,6 @@ public class diagonalMatrixSum {
             if(i != matrix.length-1-i)
                 sum+= matrix[i][matrix.length-i-1];
         }
-    
     return sum;
     }
 
