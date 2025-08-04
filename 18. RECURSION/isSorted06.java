@@ -1,9 +1,11 @@
 public class isSorted06 {
     public static Boolean isSorted(int arr[], int i){
-
+        //base condition
         if(i == arr.length-1){
             return true;
         }
+
+
 
         if(arr[i] > arr[i+1]){
             return false;
