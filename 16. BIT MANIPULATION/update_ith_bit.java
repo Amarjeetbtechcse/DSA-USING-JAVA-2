@@ -27,4 +27,4 @@ public class update_ith_bit {
         System.out.println(updateBit(10, 2, 1));
     }
 }
-// answer is fourteen here
+// answer is fourteen  here
